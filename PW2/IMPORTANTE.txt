@@ -1,0 +1,6 @@
+
+ Os scripts só vão rodar depois de ter o node instalado, o express e o nodemon (extensões do node).
+Comandos necessários após ter o node:
+    npm init -y
+    npm i express
+    npm i nodemon
