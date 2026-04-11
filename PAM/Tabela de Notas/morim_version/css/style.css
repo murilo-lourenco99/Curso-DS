@@ -1,0 +1,61 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #7333EE;
+    text-align: center;
+}
+
+header {
+    color: #F4FD00;
+}
+
+table, tr {
+    width: auto;
+    border: 1px solid #8207B7;
+    background-color: #ffffff;
+}
+
+td {
+    width: auto;
+    background-color: #8207B7;
+    color: #F4FD00;
+}
+
+input {
+    width: auto;
+    border: none;
+    border-radius: 5px;
+}
+
+.estrela {
+  width: 100px; /* Tamanho da estrela */
+  height: 100px;
+  background-color: #6e0172; /* Cor da estrela */
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.gyro {
+    width: auto;
+    height: auto;
+    background-color: #6e0172;
+}
+
+.botaoCalculo {
+    background-color: #ffffff;
+    border-radius: 20%;
+    font-size: 16px;
+    padding: 2rem;
+}
+
+.botaoCalculo:hover {
+    background-color: #F4FD00;
+    transition: background-color 0.7s
+}
